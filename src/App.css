@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  width: 450px;
+  min-height: 200px;
+  border-radius: 10px;
+  padding: 20;
+  display:flex;
+  background-color: #839bcc;
+}
+body{
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.quizz{
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+.question_section{
+  flex: 0 0 50%;
+}
+.question_count{
+  margin-bottom: 20;
+}
+.question_text{
+  margin-bottom: 15;
+}
+.answer_buttons{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+button{
+  width: 100%;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  border: 2px solid #2345;
+  margin: 5px 0;
+  outline: none;
+
+}
+button:hover{
+  background: red;
+  transition: all 0.3 easy;
+}
